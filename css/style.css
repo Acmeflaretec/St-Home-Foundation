@@ -1,6 +1,15 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+
+
+/* Ensure all elements respect the box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
     color: #666666;
     background: #dddddd;
@@ -11,6 +20,9 @@ body {
     padding: 0;
     box-sizing: border-box;
   }
+
+  
+
 h1,
 h2,
 h3,
@@ -40,10 +52,11 @@ a:focus {
 .wrapper {
   position: relative;
   width: 100%;
-  max-width: 1366px;
+  max-width: 1798px;
   margin: 0 auto;
   background: #ffffff;
 }
+
 
 .back-to-top {
   position: fixed;
@@ -77,6 +90,10 @@ a:focus {
 /**********************************/
 /********** Top Bar CSS ***********/
 /**********************************/
+
+
+
+
 .top-bar {
   position: relative;
   height: 90px;
