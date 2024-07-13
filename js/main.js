@@ -119,6 +119,57 @@
         }
     });
     
+
+    // function sendWhatsAppMessage(event) {
+    //     event.preventDefault(); // Prevent the form from submitting normally
+    
+    //     // Get the form values
+    //     const name = document.getElementById('name').value;
+    //     const email = document.getElementById('email').value;
+    //     const phone = document.getElementById('phone').value;
+    //     const message = document.getElementById('message').value;
+    
+    //     // Basic validation
+    //     if (!name || !email || !phone || !message) {
+    //         alert("Please fill out all fields.");
+    //         return;
+    //     }
+    
+    //     // Construct the WhatsApp message
+    //     const whatsappMessage = `Name: ${name}%0AEmail: ${email}%0APhone: ${phone}%0AMessage: ${message}`;
+    
+    //     // WhatsApp number to send the message to
+    //     const whatsappNumber = '9884511946';
+    
+    //     // WhatsApp API link
+    //     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+    
+    //     // Open WhatsApp with the message
+    //     window.open(whatsappLink, '_blank');
+    // }
+    
+
+
+    document.getElementById("contactForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const phone = document.getElementById("phone").value;
+        const message = document.getElementById("message").value;
+
+        // Basic validation
+        if (!name || !email || !phone || !message) {
+            alert("Please fill out all fields.");
+            return;
+        }
+
+        const whatsappMessage = `Name: ${name}%0aEmail: ${email}%0aPhone: ${phone}%0aMessage: ${message}`;
+
+        const whatsappURL = `https://wa.me/9884511946?text=${whatsappMessage}`;
+        window.open(whatsappURL, "_blank");
+    });
+    
     
     // Portfolio isotope and filter
     // var portfolioIsotope = $('.portfolio-container').isotope({
