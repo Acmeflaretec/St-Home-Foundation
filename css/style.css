@@ -186,6 +186,7 @@ a:focus {
 .nav-bar .logo img{
   max-width: 100%;
   max-height: 90px;
+  margin-right: 80px;
 }
 
 .nav-bar.nav-sticky {
