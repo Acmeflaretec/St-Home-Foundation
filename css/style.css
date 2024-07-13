@@ -183,6 +183,11 @@ a:focus {
   padding: 0;
 }
 
+.nav-bar .logo img{
+  max-width: 100%;
+  max-height: 90px;
+}
+
 .nav-bar.nav-sticky {
   position: fixed;
   top: 0;
