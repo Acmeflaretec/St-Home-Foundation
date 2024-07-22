@@ -1982,7 +1982,7 @@ color: white;
 
 .contact .contact-item [class^="flaticon-"]::before {
   margin: 0;
-  color: #fff;
+  color: #27aae2;
   font-size: 40px;
 }
 
@@ -1993,7 +1993,7 @@ color: white;
 }
 
 .contact .contact-text h2 {
-  color: #fff;
+  color: #27aae2;
   font-size: 20px;
   font-weight: 600;
 }
@@ -2037,16 +2037,16 @@ color: white;
 }
 
 .contact .contact-form .form-control::placeholder {
-  color: #255181;
+  color: #fff;
   opacity: 1;
 }
 
 .contact .contact-form .form-control::-ms-input-placeholder {
-  color: #255181;
+  color: #fff;
 }
 
 .contact .contact-form .form-control::-ms-input-placeholder {
-  color: #255181;
+  color: #fff;
 }
 
 .contact .contact-form .btn {
@@ -2054,14 +2054,14 @@ color: white;
   font-size: 16px;
   font-weight: 600;
   color: white;
-  background: green;
-  border: none;
+  background: transparent;
+  border: white solid 2px;
   border-radius: 0;
   transition: 0.3s;
 }
 
 .contact .contact-form .btn:hover {
-  color: green;
+  color: #255181;
   background: #ffffff;
 }
 
