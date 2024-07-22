@@ -187,7 +187,7 @@ a:focus {
   max-width: 100%;
   max-height: 60px;
   margin-right: 80px;
-  border-radius: 100%;
+  /* border-radius: 100%; */
 }
 
 .nav-bar.nav-sticky {
@@ -2074,6 +2074,30 @@ color: white;
 /*******************************/
 /********* Footer CSS **********/
 /*******************************/
+
+
+.footer .footer-contact .contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer .footer-contact .contact-item i {
+  margin-right: 10px;
+  
+  font-size: 18px;
+}
+
+.footer .footer-contact .contact-item a, 
+.footer .footer-contact .contact-item p {
+  margin: 0;
+ 
+  text-decoration: none;
+}
+
+
+
+
 .footer {
   position: relative;
   margin-top: 45px;
@@ -2082,6 +2106,11 @@ color: white;
   color: #ffffff;
 }
 
+.footer .footer-contact .office-contact{
+  display: flex;
+}
+
+
 .footer .footer-contact,
 .footer .footer-link,
 .footer .newsletter {
@@ -2089,13 +2118,14 @@ color: white;
   margin-bottom: 45px;
 }
 
+
 .footer h2 {
   position: relative;
   margin-bottom: 20px;
   padding-bottom: 10px;
   font-size: 20px;
   font-weight: 600;
-  color: #255181;
+  color: #27aae2;
 }
 
 .footer h2::after {
@@ -2105,7 +2135,7 @@ color: white;
   height: 2px;
   left: 0;
   bottom: 0;
-  background: #255181;
+  background: #27aae2;
 }
 
 .footer .footer-link a {
@@ -2119,7 +2149,7 @@ color: white;
   color: #ffffff;
 }
 .footer-contact a :hover{
-  color: #255181;
+  color: #27aae2;
 }
 
 .footer .footer-link a::before {
@@ -2131,7 +2161,7 @@ color: white;
 }
 
 .footer .footer-link a:hover {
-  color: #255181;
+  color: #27aae2;
   letter-spacing: 1px;
 }
 
@@ -2161,12 +2191,12 @@ color: white;
 }
 
 .footer .footer-social a:hover {
-  background: #255181;
-  border-color: #255181;
+  background: #27aae2;
+  border-color: #27aae2;
 }
 
 .footer .footer-social a:hover i {
-  color: #030f27;
+  color: #27aae2;
 }
 
 .footer .newsletter .form {
@@ -2220,7 +2250,7 @@ color: white;
 }
 
 .footer .footer-menu .f-menu a:hover {
-  color: #255181;
+  color: #27aae2;
 }
 
 .footer .footer-menu .f-menu a:last-child {
@@ -2243,7 +2273,7 @@ color: white;
 }
 
 .footer .copyright p a {
-  color: #255181;
+  color: #27aae2;
   font-weight: 500;
   letter-spacing: 1px;
 }
