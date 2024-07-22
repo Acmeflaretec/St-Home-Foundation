@@ -21,7 +21,6 @@ body {
     box-sizing: border-box;
   }
 
-  
 
 h1,
 h2,
@@ -61,7 +60,7 @@ a:focus {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #255181;
+  background: #fff;
   color: #121518;
   width: 44px;
   height: 44px;
@@ -75,7 +74,7 @@ a:focus {
 }
 
 .back-to-top:hover {
-  color: #255181;
+  color: #fff;
   background: #121518;
 }
 
@@ -109,7 +108,7 @@ a:focus {
 
 .top-bar .logo h1 {
   margin: 0;
-  color: #030f27;
+  color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   line-height: 60px;
@@ -137,7 +136,7 @@ a:focus {
 
 .top-bar .top-bar-icon [class^="flaticon-"]::before {
   margin: 0;
-  color: #030f27;
+  color: #ffffff;
   font-size: 40px;
 }
 
@@ -147,14 +146,14 @@ a:focus {
 
 .top-bar .top-bar-text h3 {
   margin: 0 0 5px 0;
-  color: #030f27;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 400;
 }
 
 .top-bar .top-bar-text p {
   margin: 0;
-  color: #030f27;
+  color: #ffffff;
   font-size: 13px;
   font-weight: 400;
 }
@@ -233,7 +232,7 @@ a:focus {
 }
 
 .nav-bar .btn:hover {
-  color: #030f27;
+  color: white;
   background: #255181;
   border-color: #255181;
 }
@@ -357,7 +356,7 @@ a:focus {
 }
 
 .carousel .carousel-caption .btn:hover {
-  color: #030f27;
+  color: #ffffff;
   background: #255181;
   border-color: #255181;
 }
@@ -580,7 +579,7 @@ a:focus {
 .feature .feature-icon [class^="flaticon-"]::before {
   position: relative;
   margin: 0;
-  color: #255181;
+  color: #ffffff;
   font-size: 60px;
   line-height: 60px;
   z-index: 3;
@@ -592,14 +591,14 @@ a:focus {
 
 .feature .feature-text h3 {
   margin: 0 0 10px 0;
-  color: #255181;
+  color: #ffffff;
   font-size: 25px;
   font-weight: 600;
 }
 
 .feature .feature-text p {
   margin: 0;
-  color: #255181;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 400;
 }
@@ -607,7 +606,7 @@ a:focus {
 .feature .col-md-12:nth-child(2n) [class^="flaticon-"]::before,
 .feature .col-md-12:nth-child(2n) h3,
 .feature .col-md-12:nth-child(2n) p {
-  color: #030f27;
+  color: #ffffff;
 }
 
 /*******************************/
@@ -645,14 +644,14 @@ a:focus {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 1px;
-  color: #030f27;
+  color: #ffffff;
   border-radius: 0;
   background: #255181;
   transition: 0.3s;
 }
 
 .about .about-text a.btn:hover {
-  color: #255181;
+  color: #ffffff;
   background: #030f27;
 }
 
@@ -703,11 +702,13 @@ a:focus {
 .fact .fact-right {
   padding-top: 60px;
   padding-bottom: 60px;
+  
 }
 
 .fact .fact-text h2 {
   font-size: 35px;
   font-weight: 700;
+  color: #ffffff;
 }
 
 .fact .fact-text p {
@@ -718,17 +719,17 @@ a:focus {
 }
 
 .fact .fact-left {
-  color: #255181;
+  color: #ffffff;
   background: #030f27;
 }
 
 .fact .fact-right {
-  color: #030f27;
+  color: #ffffff;
   background: #255181;
 }
 
 .fact .fact-left h2 {
-  color: #255181;
+  color: #ffffff;
 }
 
 /*******************************/
@@ -796,7 +797,7 @@ a:focus {
   width: calc(100% - 60px);
   font-size: 20px;
   font-weight: 700;
-  color: #255181;
+  color: #fff;
   text-align: left;
   overflow: hidden;
   white-space: nowrap;
@@ -813,7 +814,7 @@ a:focus {
   font-size: 60px;
   line-height: 60px;
   font-weight: 100;
-  color: #030f27;
+  color: #ffffff;
   background: #255181;
   border-radius: 0;
   transition: 0.3s;
@@ -1162,6 +1163,9 @@ a:focus {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.testimonial .section-header p{
+  color: white;
+}
 
 .testimonial .container {
   max-width: 760px;
@@ -1222,7 +1226,7 @@ color: white;
 }
 
 .testimonial .testimonial-slider h3 {
-  color: #255181;
+  color: #fff;
   font-size: 22px;
   font-weight: 700;
 }
@@ -1978,7 +1982,7 @@ color: white;
 
 .contact .contact-item [class^="flaticon-"]::before {
   margin: 0;
-  color: #255181;
+  color: #fff;
   font-size: 40px;
 }
 
@@ -1989,7 +1993,7 @@ color: white;
 }
 
 .contact .contact-text h2 {
-  color: #255181;
+  color: #fff;
   font-size: 20px;
   font-weight: 600;
 }
