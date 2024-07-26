@@ -124,8 +124,10 @@ a:focus {
 .top-bar .top-bar-item {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
+
+
 
 .top-bar .top-bar-icon {
   width: 40px;
@@ -2001,7 +2003,7 @@ color: white;
 .contact .contact-text p {
   margin: 0;
   color: #ffffff;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .contact .contact-item:last-child {
