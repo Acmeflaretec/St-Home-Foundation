@@ -2239,6 +2239,11 @@ color: white;
   background: #255181;
 }
 
+.location iframe {
+  width: 100%; /* Adjust as needed */
+  height: 300px; /* Adjust as needed */
+}
+
 .footer .footer-menu .f-menu {
   position: relative;
   padding: 15px 0;
@@ -2247,6 +2252,8 @@ color: white;
   border-top: 1px solid rgba(256, 256, 256, 0.1);
   border-bottom: 1px solid rgba(256, 256, 256, 0.1);
 }
+
+
 
 .footer .footer-menu .f-menu a {
   color: #ffffff;
